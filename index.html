@@ -27,13 +27,26 @@
                     <button class="signin-btn">Sign In</button>
                 </div>
             </nav>
-            <article>
+            <article class="header-content">
                 <h1>Unlimited movies, TV shows, and more.</h1>
                 <h2>Watch anywhere. Cancel anytime.</h2>
                 <p>Ready to watch? Enter your email to create or restart your membership.</p>
-                <input type="email" name="user-email" id="user-email" placeholder="Email Address" />
-                <button class="started-btn">Get Started</button>
+                <div class="user-input">
+                    <input type="email" name="user-email" id="user-email" placeholder="Email Address" />
+                    <button class="started-btn" type="submit">Get Started</button>
+                </div>
             </article>
         </header>
+        <section>
+            <article class="section-content">
+                <h1>Enjoy on your TV.</h1>
+                <h2>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h2>
+            </article>
+            <aside class="video-wrapper">
+                <img src="./assets/tv.png" alt="TV image" />
+                <video src="./assets/video-tv-0819.m4v" type="video/mp4" autoplay loop muted></video>
+            </aside>
+        </section>
     </body>
+    <script src="./app.js"></script>
 </html>

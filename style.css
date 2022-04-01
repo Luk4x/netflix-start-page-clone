@@ -9,7 +9,7 @@
 }
 
 :root {
-    --color1: #111;
+    --color1: #000;
     --color2: #333;
     --color3: #e50914;
 }
@@ -21,6 +21,7 @@ body {
 header {
     padding: 30px 50px;
     background: url(./assets/background.jpeg);
+    position: relative;
 }
 
 nav {
@@ -66,4 +67,122 @@ nav {
     font-size: 16px;
     border-radius: 4px;
     font-weight: 500;
+    cursor: pointer;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content > h1 {
+    font-size: 50px;
+    width: 600px;
+    margin: 5px auto;
+}
+
+.header-content > h2 {
+    font-weight: 500;
+    font-size: 26px;
+    margin-bottom: 16px;
+}
+
+.header-content > p {
+    font-size: 19.2px;
+    margin-bottom: 10px;
+}
+
+.user-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#user-email {
+    width: 500px;
+    height: 70px;
+    padding: 5px 5px 0 10px;
+    color: #000;
+    margin-right: 1px;
+}
+
+.started-btn {
+    height: 70px;
+    background: var(--color3);
+    font-size: 26px;
+    font-weight: 500;
+    padding: 20px 30px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.started-btn::after {
+    content: url('./assets/seta.svg');
+    padding-left: 15px;
+}
+
+.started-btn:hover {
+    background: #f11520;
+}
+
+.started-btn:active {
+    outline: 2px solid #ba0710;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background: var(--color2);
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 40px;
+    max-width: 1300px;
+}
+
+section::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background: var(--color2);
+}
+
+.section-content > h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.section-content > h2 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.video-wrapper {
+    position: relative;
+}
+
+.video-wrapper img {
+    width: 400px;
+}
+
+.video-wrapper video {
+    position: absolute;
+    left: 52px;
+    top: 63px;
+    width: 292px;
+    z-index: -1;
 }
