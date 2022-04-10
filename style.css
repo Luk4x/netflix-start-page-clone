@@ -29,7 +29,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 0 120px 120px 120px;
+    margin-bottom: 120px;
 }
 
 .nav-btn-wrapper {
@@ -38,27 +38,41 @@ nav {
 
 .nav-btn-wrapper > img {
     position: absolute;
-    width: 20px;
-    top: 8px;
-    left: 5px;
+    width: 18px;
+    top: 9px;
+    left: 6px;
     pointer-events: none;
 }
 
 .nav-btn-wrapper > i {
     position: absolute;
     font-size: 14px;
-    left: 100px;
+    left: 90px;
     top: 12px;
 }
 
 #language {
-    padding: 8px 20px 8px 30px;
+    padding: 8px 20px 8px 20px;
     border: 1px solid #f5f5f5;
-    background: transparent;
+    background: rgb(63, 63, 63);
     font-size: 14px;
     margin-right: 30px;
     border-radius: 3px;
     appearance: none;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+
+#btn-language {
+    padding: 8px 20px 8px 30px;
+    border: 1px solid #f5f5f5;
+    background: transparent;
+    font-size: 14px;
+    padding-right: 30px;
+    margin-right: 30px;
+    border-radius: 3px;
+    pointer-events: none;
 }
 
 .signin-btn {
@@ -76,8 +90,8 @@ nav {
 }
 
 .header-content > h1 {
-    font-size: 60px;
-    width: 640px;
+    font-size: 64px;
+    max-width: 700px;
     margin: 5px auto;
 }
 
@@ -138,19 +152,15 @@ nav {
     background: var(--color2);
 }
 
-section {
+.netflix-showcase {
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0;
-    max-width: 1000px;
+    padding: 35px 40px;
+    max-width: 1200px;
     margin: auto;
-}
-
-.section-content {
-    max-width: 548px;
 }
 
 .section-content > h1 {
@@ -161,6 +171,7 @@ section {
 .section-content > h2 {
     font-size: 26px;
     font-weight: 400;
+    max-width: 548px;
 }
 
 .first-animation-wrapper {
@@ -168,37 +179,36 @@ section {
 }
 
 .first-animation-wrapper img {
-    width: 400px;
+    width: 100%;
+    max-width: 560px;
 }
 
 .first-animation-wrapper video {
     position: absolute;
-    left: 52px;
-    top: 63px;
-    width: 292px;
+    left: 13%;
+    top: 20.5%;
+    width: 73%;
+    max-width: 390px;
     z-index: -1;
 }
 
 .second-animation-wrapper {
     position: relative;
+    padding-left: 100px;
 }
 
-.full-stranger-things-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.full-stranger-things-card > img {
-    width: 480px;
-    height: 360px;
+.second-animation-wrapper > img {
+    width: 150%;
+    max-width: 504px;
+    position: relative;
+    left: -50%;
 }
 
 .stranger-things-card {
-    max-width: 70%;
+    width: 110%;
     height: 100px;
     padding: 0 10px;
-    border: 1px solid rgb(63, 63, 63);
+    border: 2px solid rgb(63, 63, 63);
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -207,7 +217,8 @@ section {
     margin: 0 auto;
     background: var(--color1);
     position: relative;
-    bottom: 120px;
+    bottom: 130px;
+    left: -35%;
 }
 
 .stranger-things-inner-card {
@@ -238,18 +249,53 @@ section {
     margin-left: 50px;
 }
 
+#stranger-things-content {
+    margin-left: 30px;
+}
+
 .third-inner-animation-wrapper {
     position: relative;
 }
 
 .third-inner-animation-wrapper > img {
-    width: 530px;
+    width: 107%;
+    max-width: 560px;
 }
 
 .third-inner-animation-wrapper > video {
     position: absolute;
-    left: 100px;
-    top: 40px;
+    left: 20.7%;
+    top: 11%;
     z-index: -1;
-    width: 330px;
+    width: 65.5%;
+    max-width: 325px;
+}
+
+.fourth-animation-wrapper > img {
+    width: 110%;
+    max-width: 504px;
+}
+
+#kids-content {
+    margin-left: 40px;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions > h1 {
+    font-size: 50px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1450px) {
+    .header-content > h1 {
+        font-size: 50px;
+        max-width: 540px;
+    }
 }
