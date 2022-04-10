@@ -29,7 +29,7 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 120px;
+    margin: 0 120px 120px 120px;
 }
 
 .nav-btn-wrapper {
@@ -72,22 +72,23 @@ nav {
 
 .header-content {
     text-align: center;
+    margin-bottom: 210px;
 }
 
 .header-content > h1 {
-    font-size: 50px;
-    width: 600px;
+    font-size: 60px;
+    width: 640px;
     margin: 5px auto;
 }
 
 .header-content > h2 {
     font-weight: 500;
-    font-size: 26px;
+    font-size: 24px;
     margin-bottom: 16px;
 }
 
 .header-content > p {
-    font-size: 19.2px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 
@@ -143,9 +144,13 @@ section {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 40px;
-    max-width: 1300px;
+    padding: 30px 0;
+    max-width: 1000px;
     margin: auto;
+}
+
+.section-content {
+    max-width: 548px;
 }
 
 .section-content > h1 {
@@ -193,8 +198,8 @@ section {
     max-width: 70%;
     height: 100px;
     padding: 0 10px;
-    border: 1px solid gray;
-    border-radius: 15px;
+    border: 1px solid rgb(63, 63, 63);
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -231,4 +236,20 @@ section {
     width: 48px;
     height: 50px;
     margin-left: 50px;
+}
+
+.third-inner-animation-wrapper {
+    position: relative;
+}
+
+.third-inner-animation-wrapper > img {
+    width: 530px;
+}
+
+.third-inner-animation-wrapper > video {
+    position: absolute;
+    left: 100px;
+    top: 40px;
+    z-index: -1;
+    width: 330px;
 }
