@@ -104,11 +104,23 @@ nav {
 }
 
 .user-input {
+    position: relative;
+    max-width: 714px;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-bottom: 130px;
+}
+
+[for='user-email'] {
+    position: absolute;
+    color: #808080;
+    font-size: 17px;
+    left: 10px;
+    transition: all 0.2s ease-in-out;
+    pointer-events: none;
 }
 
 .user-email {
@@ -119,6 +131,12 @@ nav {
     margin-right: 1px;
     border: 1px solid #808080;
     font-size: 16px;
+}
+
+.user-email:focus ~ [for='user-email'] {
+    font-size: 13px;
+    font-weight: bold;
+    top: 8px;
 }
 
 .started-btn {
@@ -319,11 +337,11 @@ nav {
     transition: all 0.3s ease-in-out;
 }
 
-.question.active::after {
+.question.active-q::after {
     transform: rotate(90deg);
 }
 
-p.active {
+p.active-a {
     opacity: 1;
     position: static;
 }
