@@ -296,6 +296,7 @@ nav {
     max-width: 1100px;
     list-style-type: none;
     padding: 0 150px;
+    width: 100%;
 }
 
 .question {
@@ -315,15 +316,29 @@ nav {
     transform: rotate(45deg);
     position: absolute;
     right: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.question.active::after {
+    transform: rotate(90deg);
+}
+
+p.active {
+    opacity: 1;
+    position: static;
 }
 
 .answer-paragraph {
     width: 100%;
+    position: absolute;
+    left: -10000px;
+    opacity: 0;
     background: #303030;
     font-size: 25px;
     text-align: left;
     padding: 30px 30px;
     margin-top: -7px;
+    transition: all 0.5s ease-in-out;
 }
 
 #email-paragraph {
