@@ -79,6 +79,12 @@ nav {
     border-radius: 4px;
     font-weight: 500;
     cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.signin-btn:hover {
+    transform: translateY(3px);
+    background: #f11520;
 }
 
 .header-content {
@@ -95,11 +101,12 @@ nav {
 .header-content > h2 {
     font-weight: 500;
     font-size: 24px;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .header-content > p {
     font-size: 18px;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 
@@ -114,7 +121,7 @@ nav {
     margin-bottom: 130px;
 }
 
-[for='user-email'] {
+.email-label {
     position: absolute;
     color: #808080;
     font-size: 17px;
@@ -133,10 +140,11 @@ nav {
     font-size: 16px;
 }
 
-.user-email:focus ~ [for='user-email'] {
+.user-email:focus ~ .email-label,
+.user-email:valid ~ .email-label {
     font-size: 13px;
-    font-weight: bold;
-    top: 8px;
+    font-weight: 600;
+    top: 6px;
 }
 
 .started-btn {
@@ -147,16 +155,15 @@ nav {
     padding: 0 30px;
     cursor: pointer;
     border: 2px solid transparent;
-    transition: all 0.3s ease-in-out;
+}
+
+.started-btn:hover {
+    background: #f11520;
 }
 
 .started-btn::after {
     content: url('./assets/seta.svg');
     padding-left: 15px;
-}
-
-.started-btn:hover {
-    background: #f11520;
 }
 
 .started-btn:active {
@@ -320,7 +327,7 @@ nav {
 .question {
     width: 100%;
     height: 76px;
-    margin: 8px 0;
+    margin: 6px 0;
     background: #303030;
     font-size: 28px;
     text-align: left;
@@ -367,7 +374,7 @@ p.active-a {
 }
 
 .footer-wrapper {
-    max-width: 1000px;
+    max-width: 1100px;
     padding: 0 100px;
     margin: 70px auto 30px auto;
 }
@@ -428,7 +435,7 @@ footer a:hover {
 #languageDown {
     height: 53px;
     padding-left: 50px;
-    padding-right: 26px;
+    padding-right: 35px;
     border: 1px solid #333;
     background: #000000;
     color: #999;
@@ -437,6 +444,7 @@ footer a:hover {
     border-radius: 3px;
     appearance: none;
     margin: 20px 0;
+    cursor: pointer;
 }
 
 .netflix-footer-paragraph {
@@ -444,7 +452,7 @@ footer a:hover {
     color: #757575;
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1449px) {
     .header-content > h1 {
         font-size: 50px;
         max-width: 540px;
@@ -456,5 +464,14 @@ footer a:hover {
 
     .started-btn {
         height: 60px;
+    }
+}
+
+@media screen and (max-width: 949px) {
+    .header-content > p {
+        font-size: 23px;
+        max-width: 480px;
+        margin: auto;
+        margin-bottom: 12px;
     }
 }
