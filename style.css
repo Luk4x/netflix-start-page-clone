@@ -485,7 +485,7 @@ footer a:hover {
     }
 
     .email-label {
-        left: 125px;
+        left: 18%;
         top: 20px;
     }
 
@@ -535,5 +535,52 @@ footer a:hover {
         width: 100%;
         max-width: 400px;
         left: -12%;
+    }
+
+    .third-inner-animation-wrapper {
+        margin-top: 20px;
+    }
+
+    .fourth-animation-wrapper {
+        margin-top: 50px;
+    }
+
+    .questions h1 {
+        font-size: 40px;
+    }
+
+    #faq-list {
+        padding: 0 100px;
+    }
+
+    .question {
+        font-size: 20px;
+        height: 60px;
+    }
+
+    .question::after {
+        transform: scale(0.7) rotate(45deg);
+    }
+
+    .question.active-q::after {
+        transform: scale(0.7) rotate(90deg);
+    }
+
+    .answer-paragraph {
+        font-size: 19px;
+    }
+
+    #email-paragraph {
+        font-size: 23px;
+        max-width: 480px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .header-content > p {
+        font-size: 18px;
     }
 }
