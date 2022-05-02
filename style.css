@@ -47,7 +47,7 @@ nav {
 
 #language {
     padding: 8px;
-    width: 132px;
+    max-width: 132px;
     border: 1px solid #f5f5f5;
     background: #333;
     font-size: 14px;
@@ -601,5 +601,37 @@ footer a:hover {
 
     .footer-links {
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    header {
+        padding: 30px 20px;
+    }
+
+    nav > img {
+        width: 88px;
+    }
+
+    .nav-btn-wrapper > img {
+        width: 14px;
+        top: 8px;
+    }
+
+    .nav-btn-wrapper > i {
+        left: 80px;
+        top: 10px;
+    }
+
+    #btn-language {
+        width: 100px;
+        padding: 5px 0;
+        padding-right: 0;
+        margin-right: 10px;
+    }
+
+    .signin-btn {
+        font-size: 14px;
+        padding: 5px 10px;
     }
 }
