@@ -24,7 +24,6 @@ nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 120px;
 }
 
 .nav-btn-wrapper {
@@ -88,6 +87,10 @@ nav {
 }
 
 .header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -484,7 +487,6 @@ footer a:hover {
     }
 
     .email-label {
-        left: 18%;
         top: 20px;
     }
 
