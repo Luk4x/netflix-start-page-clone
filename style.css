@@ -378,11 +378,12 @@ p.active-a {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 20px;
+    padding: 20px;
 }
 
 .footer-wrapper {
     max-width: 1100px;
-    padding: 0 100px;
+    padding: 0 70px;
     margin: 70px auto 30px auto;
 }
 
@@ -602,9 +603,13 @@ footer a:hover {
     .footer-links {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .footer-wrapper {
+        padding: 0 50px;
+    }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 560px) {
     header {
         padding: 30px 20px;
     }
@@ -633,5 +638,64 @@ footer a:hover {
     .signin-btn {
         font-size: 14px;
         padding: 5px 10px;
+    }
+
+    .header-content > h1 {
+        margin: 50px auto 5px;
+        font-size: 28px;
+    }
+
+    .header-content > h2 {
+        font-size: 18px;
+    }
+
+    .header-content > p {
+        font-size: 16.5px;
+    }
+
+    .user-input {
+        width: 95%;
+        margin-bottom: 60px;
+        align-items: stretch;
+    }
+
+    .user-email {
+        width: unset;
+    }
+
+    .started-btn {
+        margin: 20px auto 0;
+    }
+
+    .section-content > h1 {
+        font-size: 26px;
+    }
+
+    .section-content > h2 {
+        font-size: 17px;
+    }
+
+    .questions h1 {
+        font-size: 26px;
+    }
+
+    #faq-list {
+        padding: 0 20px;
+    }
+
+    .question {
+        font-size: 18px;
+    }
+
+    .answer-paragraph {
+        font-size: 17px;
+    }
+
+    #email-paragraph {
+        font-size: 18px;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
