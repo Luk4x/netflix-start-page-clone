@@ -403,6 +403,7 @@ p.active-a {
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    text-align: center;
 }
 
 .footer-links > li {
@@ -587,6 +588,7 @@ footer a:hover {
 
     .user-email {
         height: 48px;
+        width: 450px;
     }
 
     .email-label {
@@ -609,7 +611,7 @@ footer a:hover {
     }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 550px) {
     header {
         padding: 30px 20px;
     }
