@@ -322,6 +322,7 @@ nav {
     font-size: 50px;
     padding-top: 60px;
     padding-bottom: 40px;
+    text-align: center;
 }
 
 #faq-list {
@@ -374,10 +375,10 @@ p.active-a {
 }
 
 #email-paragraph {
-    margin-top: 80px;
+    margin-top: 20px;
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     padding: 20px;
 }
 
@@ -524,6 +525,14 @@ footer a:hover {
         z-index: 1;
     }
 
+    #stranger-things-content {
+        margin-left: 0;
+    }
+
+    #kids-content {
+        margin-left: 0;
+    }
+
     .reverse {
         flex-direction: column-reverse;
     }
@@ -652,7 +661,7 @@ footer a:hover {
     }
 
     .header-content > p {
-        font-size: 16.5px;
+        font-size: 18px;
     }
 
     .user-input {
@@ -675,6 +684,29 @@ footer a:hover {
 
     .section-content > h2 {
         font-size: 17px;
+        margin-bottom: 0;
+    }
+
+    #first-section-description {
+        margin-bottom: -4vw;
+    }
+
+    .second-animation-wrapper {
+        padding-left: 20vw;
+    }
+
+    .stranger-things-card {
+        height: 80px;
+        bottom: 80px;
+    }
+
+    .banner-img {
+        width: 35px;
+        height: 53px;
+    }
+
+    #fourth-section-description {
+        margin-bottom: -40px;
     }
 
     .questions h1 {
