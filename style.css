@@ -57,6 +57,7 @@ nav {
     position: absolute;
     left: 0;
     opacity: 0;
+    cursor: pointer;
 }
 
 #btn-language {
@@ -69,6 +70,7 @@ nav {
     margin-right: 30px;
     border-radius: 3px;
     pointer-events: none;
+    cursor: pointer;
 }
 
 .signin-btn {
@@ -321,7 +323,7 @@ nav {
 .questions h1 {
     font-size: 50px;
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -678,6 +680,10 @@ footer a:hover {
         margin: 20px auto 0;
     }
 
+    .netflix-showcase {
+        padding: 35px 20px;
+    }
+
     .section-content > h1 {
         font-size: 26px;
     }
@@ -731,5 +737,27 @@ footer a:hover {
 
     .footer-links {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #faq-list {
+        padding: 0 10px;
+    }
+
+    .question {
+        padding: 20px 15px;
+    }
+
+    .question::after {
+        right: 15px;
+    }
+
+    .tel-paragraph {
+        text-align: center;
+    }
+
+    .footer-links {
+        grid-template-columns: 1fr;
     }
 }
