@@ -341,7 +341,7 @@ nav {
     background: #303030;
     font-size: 28px;
     text-align: left;
-    padding: 20px 30px;
+    padding: 0 30px;
     cursor: pointer;
     position: relative;
 }
@@ -740,13 +740,14 @@ footer a:hover {
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 430px) {
     #faq-list {
         padding: 0 10px;
     }
 
     .question {
-        padding: 20px 15px;
+        padding-left: 15px;
+        padding-right: 50px;
     }
 
     .question::after {
@@ -759,5 +760,29 @@ footer a:hover {
 
     .footer-links {
         grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 382px) {
+    #br-last-q::after {
+        top: 19px;
+    }
+}
+
+@media screen and (max-width: 366px) {
+    #br-penult-q::after {
+        top: 19px;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    #second-q::after {
+        top: 19px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    #penult-q::after {
+        top: 19px;
     }
 }
