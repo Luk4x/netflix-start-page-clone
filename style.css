@@ -341,7 +341,8 @@ nav {
     background: #303030;
     font-size: 28px;
     text-align: left;
-    padding: 0 30px;
+    padding-left: 30px;
+    padding-right: 70px;
     cursor: pointer;
     position: relative;
 }
@@ -350,6 +351,7 @@ nav {
     content: url('./assets/fechar.svg');
     transform: rotate(45deg);
     position: absolute;
+    top: 20px;
     right: 30px;
     transition: all 0.3s ease-in-out;
 }
@@ -613,6 +615,10 @@ footer a:hover {
         font-size: 10px;
     }
 
+    #faq-list {
+        padding: 0 60px;
+    }
+
     .footer-links {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -760,29 +766,5 @@ footer a:hover {
 
     .footer-links {
         grid-template-columns: 1fr;
-    }
-}
-
-@media screen and (max-width: 382px) {
-    #br-last-q::after {
-        top: 19px;
-    }
-}
-
-@media screen and (max-width: 366px) {
-    #br-penult-q::after {
-        top: 19px;
-    }
-}
-
-@media screen and (max-width: 325px) {
-    #second-q::after {
-        top: 19px;
-    }
-}
-
-@media screen and (max-width: 321px) {
-    #penult-q::after {
-        top: 19px;
     }
 }
