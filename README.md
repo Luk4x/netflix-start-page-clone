@@ -17,7 +17,7 @@
   <video src="https://user-images.githubusercontent.com/86276393/168495858-f34f3d0a-3423-4a5c-b890-934b21aec2d6.mp4">
 </p>
 
-> Access the project <a href="https://luk4x.github.io/netflix-start-page-clone/">HERE</a>
+> Acesse o projeto <a href="https://luk4x.github.io/netflix-start-page-clone/">AQUI</a>
 <br>
   
 ## Sobre
