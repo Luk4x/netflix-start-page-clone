@@ -21,7 +21,7 @@
 <br>
   
 ## Sobre
-Usando HTML5, CSS3 e Javascript, clonei a página inicial da Netflix. Enquanto mergulhava em Back-end, esse projeto me ajudou à fazer pausas e manter o conhecimento de Front-end fresco em mente.
+Usando HTML5, CSS3 e Javascript, clonei a página inicial da Netflix. Enquanto mergulhava em Back-end, esse projeto me ajudou a fazer pausas e manter o conhecimento de Front-end fresco em mente.
 <br>
 <br>
 
