@@ -53,6 +53,7 @@ Enquanto mergulhava em Back-end, esse projeto me ajudou a fazer pausas e manter 
 - Pratiquei sobreposição em CSS com os vídeos;
 - Animações com CSS Transition;
 - Manipulação das classes via Javascript;
+- HTML Semântico;
 
 ## 📖 Clonando o Projeto
 
