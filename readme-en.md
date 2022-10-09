@@ -53,6 +53,7 @@ While diving into Backend, this project helped me to take breaks and keep Fronte
 - I practiced CSS overlay with the videos;
 - Animations with CSS Transition;
 - Class manipulation via Javascript;
+- Semantic HTML;
 
 ## 📖 Cloning the Project
 
