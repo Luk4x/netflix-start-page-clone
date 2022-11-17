@@ -10,8 +10,9 @@
     </td>
   </tr>
 </table>
-<br>
 
+![luk4x-repo-status](https://img.shields.io/badge/Status-Finished-lightgrey?style=for-the-badge&logo=headspace&logoColor=green&color=lightgrey)
+![luk4x-repo-license](https://img.shields.io/github/license/Luk4x/netflix-start-page-clone?style=for-the-badge&logo=unlicense&logoColor=lightgrey)
 # Ⓝ Netflix Home Project
 
 <br>
