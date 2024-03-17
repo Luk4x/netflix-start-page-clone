@@ -6,7 +6,7 @@
   </tr>
   <tr>
     <td>
-      <a href="README.md">🇧🇷 Português</a>
+      <b><a href="README.md">🇧🇷 Português</a></b>
     </td>
   </tr>
 </table>
@@ -32,7 +32,7 @@
 </div>
 
 > **Caso o vídeo apresente algum erro, recarregue a página!**<br>
-> Acesse o projeto online **[AQUI](https://luk4x.github.io/netflix-start-page-clone/)**
+> Não tem deploy apenas por motivos de direitos autorais.
 
 ## 🚀 Tecnologias Utilizadas
 
